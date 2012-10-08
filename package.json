@@ -1,0 +1,17 @@
+{
+  "name": "progress",
+  "version": "0.0.1",
+  "description": "File upload progress with gif.",
+  "main": "server.js",
+  "dependencies": {
+    "formidable": "~1.0.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": "",
+  "author": "Hans Hasselberg",
+  "license": "BSD"
+}

@@ -1,0 +1,25 @@
+<html>
+  <body>
+    <h1>SuperUpload</h1>
+    <form id="file_form" action="file_upload?id=$ID$" method="POST" enctype="multipart/form-data" >
+      <input name="file" type="file" onchange="redirect()" />
+      <iframe style="display:none;" name='my_iframe' src=""></iframe>
+    </form>
+    <img src="/progress?id=$ID$">
+    <br />
+    <a href="/file?id=$ID$" target="_blank">Uploaded to here</a>
+    <form id="text_form" action="/text_form?id=$ID$" method="POST">
+      <textarea></textarea>
+      <br />
+      <input type="submit" value="Save" />
+    </form>
+  </body>
+</html>
+<script>
+  function redirect()
+  {
+    var file_form = document.getElementById('file_form');
+    file_form.target = 'my_iframe';
+    file_form.submit();
+  }
+</script>
