@@ -18,6 +18,10 @@ This is the most minimal solution I can come up with. Minimal as in minimal for 
 Although every browser is able to display animated gifs I run into several problems. Turned out Firefox is the most reliable browser, at least for my tests. Chrome works sometimes, IE9 worked when I tested it once.
 Controlling the gif, sending the correct chunks and so on is not that easy and needs more work.
 
+## Demo
+
+[vimeo](https://vimeo.com/51015656)
+
 ## Installation
 
 Install all requirements,
